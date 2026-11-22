@@ -1,0 +1,339 @@
+{
+  "format": "qrstudio.project",
+  "version": 1,
+  "exportedAt": "2026-11-21T00:00:00.000Z",
+  "project": {
+    "id": "example-kelvane-technical",
+    "name": "Kelvane Systems — Technical",
+    "createdAt": "2026-11-21T00:00:00.000Z",
+    "updatedAt": "2026-11-21T00:00:00.000Z",
+    "rendererVersion": "1.0.0",
+    "doc": {
+      "content": {
+        "text": "https://kelvane.example/launch?ref=poster",
+        "eci": false,
+        "minVersion": 1,
+        "mask": "auto"
+      },
+      "brand": {
+        "kitVersion": 1,
+        "name": "Kelvane Systems",
+        "logo": {
+          "hash": "4062832b92df9cbe9475dabe7866f6856797966ccb139dd010f801c5e5bc68cf",
+          "mime": "image/svg+xml",
+          "width": 100,
+          "height": 100,
+          "name": "kelvane.svg"
+        },
+        "swatches": [
+          {
+            "hex": "#2f5bff",
+            "weight": 0.794
+          },
+          {
+            "hex": "#ffffff",
+            "weight": 0.175
+          }
+        ],
+        "roles": {
+          "dark": "#2240a0",
+          "light": "#ffffff",
+          "accent": "#2f5bff",
+          "support": "#e3ebfd"
+        },
+        "notes": [
+          "Accent #2f5bff is the most saturated colour in the logo.",
+          "No logo colour is dark enough for reliable modules, so #2240a0 was derived by darkening #2f5bff (contrast 9.1:1). The original colour is kept as the accent.",
+          "The symbol background stays white for the strongest contrast.",
+          "Support colour #e3ebfd is a light tint of the accent."
+        ],
+        "background": null
+      },
+      "direction": {
+        "attributes": [
+          "bold"
+        ],
+        "brief": "",
+        "caption": "Launch console",
+        "detail": "Build 4.2 access"
+      },
+      "variationSeed": 7,
+      "variations": [
+        {
+          "recipeVersion": 1,
+          "preset": "precision",
+          "seed": 2654435774,
+          "title": "Precision",
+          "explanation": "Square modules on a clean field, with corner marks and one quiet caption line.",
+          "ecc": "Q",
+          "modules": {
+            "style": "square",
+            "roundness": 0,
+            "gap": 0,
+            "finder": "square",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#2240a0",
+            "darkAlt": "#2649c0",
+            "light": "#ffffff",
+            "accent": "#ffffff",
+            "frame": "#2240a0",
+            "text": "#ffffff"
+          },
+          "logo": {
+            "placement": "center",
+            "scale": 0.55,
+            "panel": "square",
+            "plate": true
+          },
+          "frame": {
+            "decoration": "hairline",
+            "padding": 0.34,
+            "radius": 0,
+            "density": 0.85
+          },
+          "caption": {
+            "text": "Launch console",
+            "detail": "Build 4.2 access",
+            "font": "inter",
+            "size": 0.65,
+            "uppercase": true,
+            "tracking": 0.55
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "soft",
+          "seed": 3668340026,
+          "title": "Soft",
+          "explanation": "Dot-like modules on a rounded card, softened by shapes in the accent colour.",
+          "ecc": "H",
+          "modules": {
+            "style": "dots",
+            "roundness": 0.9,
+            "gap": 0.3,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#2240a0",
+            "darkAlt": "#2649c0",
+            "light": "#ffffff",
+            "accent": "#91b4ff",
+            "frame": "#2f5bff",
+            "text": "#ffffff"
+          },
+          "logo": {
+            "placement": "center",
+            "scale": 0.6,
+            "panel": "circle",
+            "plate": true
+          },
+          "frame": {
+            "decoration": "blobs",
+            "padding": 0.34,
+            "radius": 0.55,
+            "density": 0.85
+          },
+          "caption": {
+            "text": "Launch console",
+            "detail": "Build 4.2 access",
+            "font": "nunito",
+            "size": 0.8,
+            "uppercase": false,
+            "tracking": 0.1
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "editorial",
+          "seed": 387276982,
+          "title": "Editorial",
+          "explanation": "A tall, typographic layout: headline above, logo and detail line below the symbol.",
+          "ecc": "M",
+          "modules": {
+            "style": "square",
+            "roundness": 0.35,
+            "gap": 0,
+            "finder": "square",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#2240a0",
+            "darkAlt": "#2649c0",
+            "light": "#ffffff",
+            "accent": "#2f5bff",
+            "frame": "#f3f4f8",
+            "text": "#2240a0"
+          },
+          "logo": {
+            "placement": "external",
+            "scale": 0.55,
+            "panel": "square",
+            "plate": false
+          },
+          "frame": {
+            "decoration": "bar",
+            "padding": 0.34,
+            "radius": 0,
+            "density": 0.85
+          },
+          "caption": {
+            "text": "Launch console",
+            "detail": "Build 4.2 access",
+            "font": "fraunces",
+            "size": 0.85,
+            "uppercase": false,
+            "tracking": 0.05
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "technical",
+          "seed": 1401181234,
+          "title": "Technical",
+          "explanation": "Chamfered modules on a dark plate, framed by brackets and measured marks.",
+          "ecc": "M",
+          "modules": {
+            "style": "chamfer",
+            "roundness": 0.8,
+            "gap": 0,
+            "finder": "square",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#2240a0",
+            "darkAlt": "#2649c0",
+            "light": "#ffffff",
+            "accent": "#2f5bff",
+            "frame": "#040f3e",
+            "text": "#dee8fe"
+          },
+          "logo": {
+            "placement": "external",
+            "scale": 0.6,
+            "panel": "square",
+            "plate": true
+          },
+          "frame": {
+            "decoration": "brackets",
+            "padding": 0.5,
+            "radius": 0.75,
+            "density": 0.85
+          },
+          "caption": {
+            "text": "Launch console",
+            "detail": "Build 4.2 access",
+            "font": "space-grotesk",
+            "size": 0.75,
+            "uppercase": true,
+            "tracking": 0.4
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "emblem",
+          "seed": 2415085486,
+          "title": "Emblem",
+          "explanation": "A round badge in the brand colour, lettering set on the ring around the square symbol.",
+          "ecc": "M",
+          "modules": {
+            "style": "rounded",
+            "roundness": 0.7,
+            "gap": 0.25,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#2240a0",
+            "darkAlt": "#2649c0",
+            "light": "#ffffff",
+            "accent": "#dde9ff",
+            "frame": "#2f5bff",
+            "text": "#ffffff"
+          },
+          "logo": {
+            "placement": "external",
+            "scale": 0.8,
+            "panel": "circle",
+            "plate": true
+          },
+          "frame": {
+            "decoration": "scallop",
+            "padding": 0.34,
+            "radius": 0.5,
+            "density": 0.85
+          },
+          "caption": {
+            "text": "Launch console",
+            "detail": "Build 4.2 access",
+            "font": "space-grotesk",
+            "size": 0.8,
+            "uppercase": true,
+            "tracking": 0.5
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "pattern",
+          "seed": 3428989738,
+          "title": "Pattern",
+          "explanation": "A repeated motif in a tone of the brand colour surrounds the symbol on its own panel.",
+          "ecc": "Q",
+          "modules": {
+            "style": "square",
+            "roundness": 0.6,
+            "gap": 0,
+            "finder": "square",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#2240a0",
+            "darkAlt": "#2649c0",
+            "light": "#ffffff",
+            "accent": "#5c89ff",
+            "frame": "#2f5bff",
+            "text": "#2240a0"
+          },
+          "logo": {
+            "placement": "center",
+            "scale": 0.55,
+            "panel": "rounded",
+            "plate": false
+          },
+          "frame": {
+            "decoration": "plus",
+            "padding": 0.34,
+            "radius": 0.4,
+            "density": 0.85
+          },
+          "caption": {
+            "text": "Launch console",
+            "detail": "Build 4.2 access",
+            "font": "space-grotesk",
+            "size": 0.8,
+            "uppercase": false,
+            "tracking": 0.1
+          }
+        }
+      ],
+      "selected": 3,
+      "export": {
+        "pngWidth": 1024,
+        "align": true,
+        "printWidthMm": 60
+      }
+    }
+  },
+  "assets": [
+    {
+      "hash": "4062832b92df9cbe9475dabe7866f6856797966ccb139dd010f801c5e5bc68cf",
+      "mime": "image/svg+xml",
+      "width": 100,
+      "height": 100,
+      "name": "kelvane.svg",
+      "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIyIiBmaWxsPSIjMmY1YmZmIi8+PHBhdGggZD0iTTI4IDIyaDE0djI0bDIyLTI0aDE4TDU4IDQ4bDI2IDMwSDY2TDQyIDUydjI2SDI4eiIgZmlsbD0iI2ZmZmZmZiIvPjxyZWN0IHg9IjcyIiB5PSI3MiIgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjMGQxMzI2Ii8+PC9zdmc+"
+    }
+  ]
+}

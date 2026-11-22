@@ -1,0 +1,351 @@
+{
+  "format": "qrstudio.project",
+  "version": 1,
+  "exportedAt": "2026-11-21T00:00:00.000Z",
+  "project": {
+    "id": "example-solenne-soft",
+    "name": "Solenne Studio — Soft",
+    "createdAt": "2026-11-21T00:00:00.000Z",
+    "updatedAt": "2026-11-21T00:00:00.000Z",
+    "rendererVersion": "1.0.0",
+    "doc": {
+      "content": {
+        "text": "https://solenne.example/classes?week=next",
+        "eci": false,
+        "minVersion": 1,
+        "mask": "auto"
+      },
+      "brand": {
+        "kitVersion": 1,
+        "name": "Solenne Studio",
+        "logo": {
+          "hash": "701d378c4751e663f10038ddbeac8281a1078f61d84549b8f35403a80c6ff02f",
+          "mime": "image/svg+xml",
+          "width": 120,
+          "height": 172,
+          "name": "solenne.svg"
+        },
+        "swatches": [
+          {
+            "hex": "#6d55c7",
+            "weight": 0.511
+          },
+          {
+            "hex": "#a08fe5",
+            "weight": 0.186
+          },
+          {
+            "hex": "#fe9d7a",
+            "weight": 0.145
+          },
+          {
+            "hex": "#55439a",
+            "weight": 0.079
+          },
+          {
+            "hex": "#84523f",
+            "weight": 0.033
+          }
+        ],
+        "roles": {
+          "dark": "#55439a",
+          "light": "#ffffff",
+          "accent": "#6d55c7",
+          "support": "#a08fe5"
+        },
+        "notes": [
+          "Accent #6d55c7 is the most saturated colour in the logo.",
+          "Modules use the logo colour #55439a (contrast 7.9:1 on white).",
+          "The symbol background stays white for the strongest contrast.",
+          "Support colour #a08fe5 is the second brand colour."
+        ],
+        "background": null
+      },
+      "direction": {
+        "attributes": [
+          "playful"
+        ],
+        "brief": "",
+        "caption": "Book a class",
+        "detail": "solenne.example"
+      },
+      "variationSeed": 5,
+      "variations": [
+        {
+          "recipeVersion": 1,
+          "preset": "precision",
+          "seed": 2654435772,
+          "title": "Precision",
+          "explanation": "Square modules on a clean field, with corner marks and one quiet caption line.",
+          "ecc": "Q",
+          "modules": {
+            "style": "rounded",
+            "roundness": 1,
+            "gap": 0,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#55439a",
+            "darkAlt": "#5d49aa",
+            "light": "#ffffff",
+            "accent": "#6d55c7",
+            "frame": "#ffffff",
+            "text": "#55439a"
+          },
+          "logo": {
+            "placement": "center",
+            "scale": 0.55,
+            "panel": "square",
+            "plate": false
+          },
+          "frame": {
+            "decoration": "ticks",
+            "padding": 0.34,
+            "radius": 0.8,
+            "density": 0.5
+          },
+          "caption": {
+            "text": "Book a class",
+            "detail": "solenne.example",
+            "font": "inter",
+            "size": 0.35,
+            "uppercase": true,
+            "tracking": 0.55
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "soft",
+          "seed": 3668340020,
+          "title": "Soft",
+          "explanation": "Dot-like modules on a rounded card, softened by shapes in the accent colour.",
+          "ecc": "H",
+          "modules": {
+            "style": "dots",
+            "roundness": 1,
+            "gap": 0.3,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#55439a",
+            "darkAlt": "#5d49aa",
+            "light": "#ffffff",
+            "accent": "#6d55c7",
+            "frame": "#e5e3fe",
+            "text": "#55439a"
+          },
+          "logo": {
+            "placement": "center",
+            "scale": 0.6,
+            "panel": "circle",
+            "plate": false
+          },
+          "frame": {
+            "decoration": "blobs",
+            "padding": 0.34,
+            "radius": 0.8,
+            "density": 0.5
+          },
+          "caption": {
+            "text": "Book a class",
+            "detail": "solenne.example",
+            "font": "nunito",
+            "size": 0.5,
+            "uppercase": false,
+            "tracking": 0.1
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "editorial",
+          "seed": 387276972,
+          "title": "Editorial",
+          "explanation": "A tall, typographic layout: headline above, logo and detail line below the symbol.",
+          "ecc": "M",
+          "modules": {
+            "style": "rounded",
+            "roundness": 1,
+            "gap": 0,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#55439a",
+            "darkAlt": "#5d49aa",
+            "light": "#ffffff",
+            "accent": "#6d55c7",
+            "frame": "#f4f3ff",
+            "text": "#55439a"
+          },
+          "logo": {
+            "placement": "external",
+            "scale": 0.55,
+            "panel": "square",
+            "plate": false
+          },
+          "frame": {
+            "decoration": "bar",
+            "padding": 0.34,
+            "radius": 0.8,
+            "density": 0.5
+          },
+          "caption": {
+            "text": "Book a class",
+            "detail": "solenne.example",
+            "font": "fraunces",
+            "size": 0.55,
+            "uppercase": false,
+            "tracking": 0.05
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "technical",
+          "seed": 1401181220,
+          "title": "Technical",
+          "explanation": "Chamfered modules on a dark plate, framed by brackets and measured marks.",
+          "ecc": "M",
+          "modules": {
+            "style": "chamfer",
+            "roundness": 0.8,
+            "gap": 0,
+            "finder": "square",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#55439a",
+            "darkAlt": "#5d49aa",
+            "light": "#ffffff",
+            "accent": "#6d55c7",
+            "frame": "#17083b",
+            "text": "#e7e5fe"
+          },
+          "logo": {
+            "placement": "external",
+            "scale": 0.6,
+            "panel": "square",
+            "plate": true
+          },
+          "frame": {
+            "decoration": "brackets",
+            "padding": 0.5,
+            "radius": 0.8,
+            "density": 0.5
+          },
+          "caption": {
+            "text": "Book a class",
+            "detail": "solenne.example",
+            "font": "dm-mono",
+            "size": 0.45,
+            "uppercase": true,
+            "tracking": 0.4
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "emblem",
+          "seed": 2415085468,
+          "title": "Emblem",
+          "explanation": "A round badge in the brand colour, lettering set on the ring around the square symbol.",
+          "ecc": "M",
+          "modules": {
+            "style": "dots",
+            "roundness": 1,
+            "gap": 0.25,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#55439a",
+            "darkAlt": "#5d49aa",
+            "light": "#ffffff",
+            "accent": "#e7e5f8",
+            "frame": "#6d55c7",
+            "text": "#ffffff"
+          },
+          "logo": {
+            "placement": "external",
+            "scale": 0.8,
+            "panel": "circle",
+            "plate": true
+          },
+          "frame": {
+            "decoration": "scallop",
+            "padding": 0.34,
+            "radius": 0.8,
+            "density": 0.5
+          },
+          "caption": {
+            "text": "Book a class",
+            "detail": "solenne.example",
+            "font": "nunito",
+            "size": 0.5,
+            "uppercase": true,
+            "tracking": 0.5
+          }
+        },
+        {
+          "recipeVersion": 1,
+          "preset": "pattern",
+          "seed": 3428989716,
+          "title": "Pattern",
+          "explanation": "A repeated motif in a tone of the brand colour surrounds the symbol on its own panel.",
+          "ecc": "Q",
+          "modules": {
+            "style": "rounded",
+            "roundness": 1,
+            "gap": 0,
+            "finder": "rounded",
+            "gradient": false
+          },
+          "palette": {
+            "dark": "#55439a",
+            "darkAlt": "#5d49aa",
+            "light": "#ffffff",
+            "accent": "#8c7fd7",
+            "frame": "#6d55c7",
+            "text": "#55439a"
+          },
+          "logo": {
+            "placement": "center",
+            "scale": 0.55,
+            "panel": "rounded",
+            "plate": false
+          },
+          "frame": {
+            "decoration": "diagonal",
+            "padding": 0.34,
+            "radius": 0.8,
+            "density": 0.8
+          },
+          "caption": {
+            "text": "Book a class",
+            "detail": "solenne.example",
+            "font": "nunito",
+            "size": 0.5,
+            "uppercase": false,
+            "tracking": 0.1
+          }
+        }
+      ],
+      "selected": 1,
+      "export": {
+        "pngWidth": 1024,
+        "align": true,
+        "printWidthMm": 60
+      }
+    }
+  },
+  "assets": [
+    {
+      "hash": "701d378c4751e663f10038ddbeac8281a1078f61d84549b8f35403a80c6ff02f",
+      "mime": "image/svg+xml",
+      "width": 120,
+      "height": 172,
+      "name": "solenne.svg",
+      "data": "PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTcyIj48cGF0aCBkPSJNMTAgMTE4YTUwIDUwIDAgMCAxIDEwMCAwaC0xM2EzNyAzNyAwIDAgMC03NCAweiIgZmlsbD0iIzZkNTVjNyIvPjxwYXRoIGQ9Ik0zMiAxMThhMjggMjggMCAwIDEgNTYgMEg3NmExNiAxNiAwIDAgMC0zMiAweiIgZmlsbD0iI2EwOGZlNiIvPjxjaXJjbGUgY3g9IjYwIiBjeT0iMTE4IiByPSI5IiBmaWxsPSIjZmY5ZTdhIi8+PHJlY3QgeD0iMTAiIHk9IjEyNCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSI1IiByeD0iMi41IiBmaWxsPSIjZmY5ZTdhIi8+PHBhdGggZD0iTTE4LjMzNSAxNjQuMjg2TDE4LjMzNSAxNjQuMjg2UTE3LjE5MSAxNjQuMjg2IDE1Ljk4MiAxNjQuMDc4UTE0Ljc3MyAxNjMuODcgMTMuNzg1IDE2My4zNzZMMTMuNzg1IDE2My4zNzZRMTMuMjY1IDE2My4xMTYgMTMuMDQ0IDE2Mi43MTNRMTIuODIzIDE2Mi4zMSAxMi44NDkgMTYxLjg5NFExMi44NzUgMTYxLjQ3OCAxMy4xMjIgMTYxLjE0UTEzLjM2OSAxNjAuODAyIDEzLjc3MiAxNjAuNjg1UTE0LjE3NSAxNjAuNTY4IDE0LjY2OSAxNjAuNzc2TDE0LjY2OSAxNjAuNzc2UTE1LjczNSAxNjEuMjE4IDE2LjYxOSAxNjEuNFExNy41MDMgMTYxLjU4MiAxOC4zNjEgMTYxLjU4MkwxOC4zNjEgMTYxLjU4MlExOS40NzkgMTYxLjU4MiAxOS45ODYgMTYxLjIzMVEyMC40OTMgMTYwLjg4IDIwLjQ5MyAxNjAuMzA4TDIwLjQ5MyAxNjAuMzA4UTIwLjQ5MyAxNTkuNzg4IDIwLjE1NSAxNTkuNTI4UTE5LjgxNyAxNTkuMjY4IDE5LjE2NyAxNTkuMTY0TDE5LjE2NyAxNTkuMTY0TDE2LjQzNyAxNTguNjdRMTQuODI1IDE1OC4zODQgMTMuOTU0IDE1Ny40ODdRMTMuMDgzIDE1Ni41OSAxMy4wODMgMTU1LjE4NkwxMy4wODMgMTU1LjE4NlExMy4wODMgMTUzLjg4NiAxMy44MTEgMTUyLjkzN1ExNC41MzkgMTUxLjk4OCAxNS44MjYgMTUxLjQ4MVExNy4xMTMgMTUwLjk3NCAxOC43NTEgMTUwLjk3NEwxOC43NTEgMTUwLjk3NFExOS45MjEgMTUwLjk3NCAyMC45MDkgMTUxLjE4MlEyMS44OTcgMTUxLjM5IDIyLjgwNyAxNTEuODU4TDIyLjgwNyAxNTEuODU4UTIzLjI3NSAxNTIuMDkyIDIzLjQ3IDE1Mi40ODJRMjMuNjY1IDE1Mi44NzIgMjMuNiAxNTMuMjg4UTIzLjUzNSAxNTMuNzA0IDIzLjI3NSAxNTQuMDQyUTIzLjAxNSAxNTQuMzggMjIuNjEyIDE1NC40ODRRMjIuMjA5IDE1NC41ODggMjEuNjg5IDE1NC4zOEwyMS42ODkgMTU0LjM4UTIwLjg1NyAxNTMuOTkgMjAuMTU1IDE1My44MjFRMTkuNDUzIDE1My42NTIgMTguODAzIDE1My42NTJMMTguODAzIDE1My42NTJRMTcuNjMzIDE1My42NTIgMTcuMTEzIDE1NC4wMjlRMTYuNTkzIDE1NC40MDYgMTYuNTkzIDE1NC45NzhMMTYuNTkzIDE1NC45NzhRMTYuNTkzIDE1NS40MiAxNi44OTIgMTU1LjcxOVExNy4xOTEgMTU2LjAxOCAxNy44MTUgMTU2LjEyMkwxNy44MTUgMTU2LjEyMkwyMC41NDUgMTU2LjYxNlEyMi4yMzUgMTU2LjkwMiAyMy4xMTkgMTU3Ljc0N1EyNC4wMDMgMTU4LjU5MiAyNC4wMDMgMTYwLjA0OEwyNC4wMDMgMTYwLjA0OFEyNC4wMDMgMTYyLjAyNCAyMi40NTYgMTYzLjE1NVEyMC45MDkgMTY0LjI4NiAxOC4zMzUgMTY0LjI4NlpNMzIuMzc1IDE2NC4yODZMMzIuMzc1IDE2NC4yODZRMzAuMzIxIDE2NC4yODYgMjguOCAxNjMuNDhRMjcuMjc5IDE2Mi42NzQgMjYuNDQ3IDE2MS4xNjZRMjUuNjE1IDE1OS42NTggMjUuNjE1IDE1Ny42MDRMMjUuNjE1IDE1Ny42MDRRMjUuNjE1IDE1Ni4wNyAyNi4wODMgMTU0Ljg0OFEyNi41NTEgMTUzLjYyNiAyNy40NDggMTUyLjc1NVEyOC4zNDUgMTUxLjg4NCAyOS41OTMgMTUxLjQyOVEzMC44NDEgMTUwLjk3NCAzMi4zNzUgMTUwLjk3NEwzMi4zNzUgMTUwLjk3NFEzNC40MjkgMTUwLjk3NCAzNS45NSAxNTEuNzhRMzcuNDcxIDE1Mi41ODYgMzguMzE2IDE1NC4wNjhRMzkuMTYxIDE1NS41NSAzOS4xNjEgMTU3LjYwNEwzOS4xNjEgMTU3LjYwNFEzOS4xNjEgMTU5LjE2NCAzOC42OCAxNjAuMzg2UTM4LjE5OSAxNjEuNjA4IDM3LjMxNSAxNjIuNDkyUTM2LjQzMSAxNjMuMzc2IDM1LjE3IDE2My44MzFRMzMuOTA5IDE2NC4yODYgMzIuMzc1IDE2NC4yODZaTTMyLjM3NSAxNjEuMzQ4TDMyLjM3NSAxNjEuMzQ4UTMzLjIzMyAxNjEuMzQ4IDMzLjg1NyAxNjAuOTMyUTM0LjQ4MSAxNjAuNTE2IDM0Ljg0NSAxNTkuNjk3UTM1LjIwOSAxNTguODc4IDM1LjIwOSAxNTcuNjA0TDM1LjIwOSAxNTcuNjA0UTM1LjIwOSAxNTUuNzA2IDM0LjQyOSAxNTQuODA5UTMzLjY0OSAxNTMuOTEyIDMyLjM3NSAxNTMuOTEyTDMyLjM3NSAxNTMuOTEyUTMxLjU0MyAxNTMuOTEyIDMwLjkwNiAxNTQuMzAyUTMwLjI2OSAxNTQuNjkyIDI5LjkxOCAxNTUuNTExUTI5LjU2NyAxNTYuMzMgMjkuNTY3IDE1Ny42MDRMMjkuNTY3IDE1Ny42MDRRMjkuNTY3IDE1OS41MDIgMzAuMzQ3IDE2MC40MjVRMzEuMTI3IDE2MS4zNDggMzIuMzc1IDE2MS4zNDhaTTQ2LjE1NSAxNjQuMjg2TDQ2LjE1NSAxNjQuMjg2UTQzLjg0MSAxNjQuMjg2IDQyLjY5NyAxNjIuOTk5UTQxLjU1MyAxNjEuNzEyIDQxLjU1MyAxNTkuMTY0TDQxLjU1MyAxNTkuMTY0TDQxLjU1MyAxNDcuNDM4UTQxLjU1MyAxNDYuNDUgNDIuMDYgMTQ1Ljk0M1E0Mi41NjcgMTQ1LjQzNiA0My41MjkgMTQ1LjQzNkw0My41MjkgMTQ1LjQzNlE0NC40NjUgMTQ1LjQzNiA0NC45NzIgMTQ1Ljk0M1E0NS40NzkgMTQ2LjQ1IDQ1LjQ3OSAxNDcuNDM4TDQ1LjQ3OSAxNDcuNDM4TDQ1LjQ3OSAxNTkuMDA4UTQ1LjQ3OSAxNjAuMDc0IDQ1LjkzNCAxNjAuNTgxUTQ2LjM4OSAxNjEuMDg4IDQ3LjE0MyAxNjEuMDg4TDQ3LjE0MyAxNjEuMDg4UTQ3LjM1MSAxNjEuMDg4IDQ3LjUzMyAxNjEuMDYyUTQ3LjcxNSAxNjEuMDM2IDQ3LjkyMyAxNjEuMDM2TDQ3LjkyMyAxNjEuMDM2UTQ4LjMzOSAxNjAuOTg0IDQ4LjUwOCAxNjEuMjgzUTQ4LjY3NyAxNjEuNTgyIDQ4LjY3NyAxNjIuNDY2TDQ4LjY3NyAxNjIuNDY2UTQ4LjY3NyAxNjMuMjQ2IDQ4LjM2NSAxNjMuNjQ5UTQ4LjA1MyAxNjQuMDUyIDQ3LjQwMyAxNjQuMTgyTDQ3LjQwMyAxNjQuMTgyUTQ3LjE0MyAxNjQuMjA4IDQ2LjgwNSAxNjQuMjQ3UTQ2LjQ2NyAxNjQuMjg2IDQ2LjE1NSAxNjQuMjg2Wk01Ni43MTEgMTY0LjI4Nkw1Ni43MTEgMTY0LjI4NlE1NC40NDkgMTY0LjI4NiA1Mi44MjQgMTYzLjQ2N1E1MS4xOTkgMTYyLjY0OCA1MC4zMjggMTYxLjE1M1E0OS40NTcgMTU5LjY1OCA0OS40NTcgMTU3LjYzTDQ5LjQ1NyAxNTcuNjNRNDkuNDU3IDE1NS42NTQgNTAuMjg5IDE1NC4xNTlRNTEuMTIxIDE1Mi42NjQgNTIuNjE2IDE1MS44MTlRNTQuMTExIDE1MC45NzQgNTYuMDA5IDE1MC45NzRMNTYuMDA5IDE1MC45NzRRNTcuMzg3IDE1MC45NzQgNTguNTA1IDE1MS40MjlRNTkuNjIzIDE1MS44ODQgNjAuNDI5IDE1Mi43MjlRNjEuMjM1IDE1My41NzQgNjEuNjUxIDE1NC43ODNRNjIuMDY3IDE1NS45OTIgNjIuMDY3IDE1Ny40NzRMNjIuMDY3IDE1Ny40NzRRNjIuMDY3IDE1Ny45NjggNjEuNzU1IDE1OC4yMTVRNjEuNDQzIDE1OC40NjIgNjAuODQ1IDE1OC40NjJMNjAuODQ1IDE1OC40NjJMNTMuMTc1IDE1OC40NjJRNTMuMzU3IDE1OS43MSA1NC4wNTkgMTYwLjQxMkw1NC4wNTkgMTYwLjQxMlE1NC45NjkgMTYxLjM0OCA1Ni43ODkgMTYxLjM0OEw1Ni43ODkgMTYxLjM0OFE1Ny40MTMgMTYxLjM0OCA1OC4yMTkgMTYxLjE5MlE1OS4wMjUgMTYxLjAzNiA1OS43MjcgMTYwLjY5OEw1OS43MjcgMTYwLjY5OFE2MC4zMjUgMTYwLjQxMiA2MC43OTMgMTYwLjUwM1E2MS4yNjEgMTYwLjU5NCA2MS41MjEgMTYwLjkzMlE2MS43ODEgMTYxLjI3IDYxLjgyIDE2MS43MTJRNjEuODU5IDE2Mi4xNTQgNjEuNjI1IDE2Mi41ODNRNjEuMzkxIDE2My4wMTIgNjAuODQ1IDE2My4yOThMNjAuODQ1IDE2My4yOThRNTkuOTYxIDE2My43OTIgNTguODU2IDE2NC4wMzlRNTcuNzUxIDE2NC4yODYgNTYuNzExIDE2NC4yODZaTTUzLjE3NSAxNTYuNDM0TDUzLjE3NSAxNTYuNDM0TDU4LjgxNyAxNTYuNDM0UTU4Ljc2NSAxNTUuNjAyIDU4LjUwNSAxNTUuMDA0TDU4LjUwNSAxNTUuMDA0UTU4LjE5MyAxNTQuMzAyIDU3LjYwOCAxNTMuOTM4UTU3LjAyMyAxNTMuNTc0IDU2LjE2NSAxNTMuNTc0TDU2LjE2NSAxNTMuNTc0UTU1LjIwMyAxNTMuNTc0IDU0LjUyNyAxNTQuMDE2UTUzLjg1MSAxNTQuNDU4IDUzLjQ4NyAxNTUuMjlMNTMuNDg3IDE1NS4yOVE1My4yNTMgMTU1LjgxIDUzLjE3NSAxNTYuNDM0Wk02Ni4zMzEgMTY0LjIzNEw2Ni4zMzEgMTY0LjIzNFE2NS4zNjkgMTY0LjIzNCA2NC44NjIgMTYzLjcxNFE2NC4zNTUgMTYzLjE5NCA2NC4zNTUgMTYyLjIzMkw2NC4zNTUgMTYyLjIzMkw2NC4zNTUgMTUzLjAwMlE2NC4zNTUgMTUyLjA0IDY0Ljg2MiAxNTEuNTMzUTY1LjM2OSAxNTEuMDI2IDY2LjI3OSAxNTEuMDI2TDY2LjI3OSAxNTEuMDI2UTY3LjIxNSAxNTEuMDI2IDY3LjcwOSAxNTEuNTMzUTY4LjIwMyAxNTIuMDQgNjguMjAzIDE1My4wMDJMNjguMjAzIDE1My4wMDJMNjguMjAzIDE1My4xMDZRNjguNzc1IDE1Mi4xOTYgNjkuNzExIDE1MS42NUw2OS43MTEgMTUxLjY1UTcwLjg4MSAxNTAuOTc0IDcyLjM4OSAxNTAuOTc0TDcyLjM4OSAxNTAuOTc0UTczLjkyMyAxNTAuOTc0IDc0LjkxMSAxNTEuNTU5UTc1Ljg5OSAxNTIuMTQ0IDc2LjM5MyAxNTMuMzI3UTc2Ljg4NyAxNTQuNTEgNzYuODg3IDE1Ni4zM0w3Ni44ODcgMTU2LjMzTDc2Ljg4NyAxNjIuMjMyUTc2Ljg4NyAxNjMuMTk0IDc2LjM4IDE2My43MTRRNzUuODczIDE2NC4yMzQgNzQuOTExIDE2NC4yMzRMNzQuOTExIDE2NC4yMzRRNzMuOTc1IDE2NC4yMzQgNzMuNDY4IDE2My43MTRRNzIuOTYxIDE2My4xOTQgNzIuOTYxIDE2Mi4yMzJMNzIuOTYxIDE2Mi4yMzJMNzIuOTYxIDE1Ni41MTJRNzIuOTYxIDE1NS4xODYgNzIuNDggMTU0LjYwMVE3MS45OTkgMTU0LjAxNiA3MS4wMTEgMTU0LjAxNkw3MS4wMTEgMTU0LjAxNlE2OS43NjMgMTU0LjAxNiA2OS4wMjIgMTU0Ljc5NlE2OC4yODEgMTU1LjU3NiA2OC4yODEgMTU2Ljg3Nkw2OC4yODEgMTU2Ljg3Nkw2OC4yODEgMTYyLjIzMlE2OC4yODEgMTY0LjIzNCA2Ni4zMzEgMTY0LjIzNFpNODEuODAxIDE2NC4yMzRMODEuODAxIDE2NC4yMzRRODAuODM5IDE2NC4yMzQgODAuMzMyIDE2My43MTRRNzkuODI1IDE2My4xOTQgNzkuODI1IDE2Mi4yMzJMNzkuODI1IDE2Mi4yMzJMNzkuODI1IDE1My4wMDJRNzkuODI1IDE1Mi4wNCA4MC4zMzIgMTUxLjUzM1E4MC44MzkgMTUxLjAyNiA4MS43NDkgMTUxLjAyNkw4MS43NDkgMTUxLjAyNlE4Mi42ODUgMTUxLjAyNiA4My4xNzkgMTUxLjUzM1E4My42NzMgMTUyLjA0IDgzLjY3MyAxNTMuMDAyTDgzLjY3MyAxNTMuMDAyTDgzLjY3MyAxNTMuMTA2UTg0LjI0NSAxNTIuMTk2IDg1LjE4MSAxNTEuNjVMODUuMTgxIDE1MS42NVE4Ni4zNTEgMTUwLjk3NCA4Ny44NTkgMTUwLjk3NEw4Ny44NTkgMTUwLjk3NFE4OS4zOTMgMTUwLjk3NCA5MC4zODEgMTUxLjU1OVE5MS4zNjkgMTUyLjE0NCA5MS44NjMgMTUzLjMyN1E5Mi4zNTcgMTU0LjUxIDkyLjM1NyAxNTYuMzNMOTIuMzU3IDE1Ni4zM0w5Mi4zNTcgMTYyLjIzMlE5Mi4zNTcgMTYzLjE5NCA5MS44NSAxNjMuNzE0UTkxLjM0MyAxNjQuMjM0IDkwLjM4MSAxNjQuMjM0TDkwLjM4MSAxNjQuMjM0UTg5LjQ0NSAxNjQuMjM0IDg4LjkzOCAxNjMuNzE0UTg4LjQzMSAxNjMuMTk0IDg4LjQzMSAxNjIuMjMyTDg4LjQzMSAxNjIuMjMyTDg4LjQzMSAxNTYuNTEyUTg4LjQzMSAxNTUuMTg2IDg3Ljk1IDE1NC42MDFRODcuNDY5IDE1NC4wMTYgODYuNDgxIDE1NC4wMTZMODYuNDgxIDE1NC4wMTZRODUuMjMzIDE1NC4wMTYgODQuNDkyIDE1NC43OTZRODMuNzUxIDE1NS41NzYgODMuNzUxIDE1Ni44NzZMODMuNzUxIDE1Ni44NzZMODMuNzUxIDE2Mi4yMzJRODMuNzUxIDE2NC4yMzQgODEuODAxIDE2NC4yMzRaTTEwMS45MjUgMTY0LjI4NkwxMDEuOTI1IDE2NC4yODZROTkuNjYzIDE2NC4yODYgOTguMDM4IDE2My40NjdROTYuNDEzIDE2Mi42NDggOTUuNTQyIDE2MS4xNTNROTQuNjcxIDE1OS42NTggOTQuNjcxIDE1Ny42M0w5NC42NzEgMTU3LjYzUTk0LjY3MSAxNTUuNjU0IDk1LjUwMyAxNTQuMTU5UTk2LjMzNSAxNTIuNjY0IDk3LjgzIDE1MS44MTlROTkuMzI1IDE1MC45NzQgMTAxLjIyMyAxNTAuOTc0TDEwMS4yMjMgMTUwLjk3NFExMDIuNjAxIDE1MC45NzQgMTAzLjcxOSAxNTEuNDI5UTEwNC44MzcgMTUxLjg4NCAxMDUuNjQzIDE1Mi43MjlRMTA2LjQ0OSAxNTMuNTc0IDEwNi44NjUgMTU0Ljc4M1ExMDcuMjgxIDE1NS45OTIgMTA3LjI4MSAxNTcuNDc0TDEwNy4yODEgMTU3LjQ3NFExMDcuMjgxIDE1Ny45NjggMTA2Ljk2OSAxNTguMjE1UTEwNi42NTcgMTU4LjQ2MiAxMDYuMDU5IDE1OC40NjJMMTA2LjA1OSAxNTguNDYyTDk4LjM4OSAxNTguNDYyUTk4LjU3MSAxNTkuNzEgOTkuMjczIDE2MC40MTJMOTkuMjczIDE2MC40MTJRMTAwLjE4MyAxNjEuMzQ4IDEwMi4wMDMgMTYxLjM0OEwxMDIuMDAzIDE2MS4zNDhRMTAyLjYyNyAxNjEuMzQ4IDEwMy40MzMgMTYxLjE5MlExMDQuMjM5IDE2MS4wMzYgMTA0Ljk0MSAxNjAuNjk4TDEwNC45NDEgMTYwLjY5OFExMDUuNTM5IDE2MC40MTIgMTA2LjAwNyAxNjAuNTAzUTEwNi40NzUgMTYwLjU5NCAxMDYuNzM1IDE2MC45MzJRMTA2Ljk5NSAxNjEuMjcgMTA3LjAzNCAxNjEuNzEyUTEwNy4wNzMgMTYyLjE1NCAxMDYuODM5IDE2Mi41ODNRMTA2LjYwNSAxNjMuMDEyIDEwNi4wNTkgMTYzLjI5OEwxMDYuMDU5IDE2My4yOThRMTA1LjE3NSAxNjMuNzkyIDEwNC4wNyAxNjQuMDM5UTEwMi45NjUgMTY0LjI4NiAxMDEuOTI1IDE2NC4yODZaTTk4LjM4OSAxNTYuNDM0TDk4LjM4OSAxNTYuNDM0TDEwNC4wMzEgMTU2LjQzNFExMDMuOTc5IDE1NS42MDIgMTAzLjcxOSAxNTUuMDA0TDEwMy43MTkgMTU1LjAwNFExMDMuNDA3IDE1NC4zMDIgMTAyLjgyMiAxNTMuOTM4UTEwMi4yMzcgMTUzLjU3NCAxMDEuMzc5IDE1My41NzRMMTAxLjM3OSAxNTMuNTc0UTEwMC40MTcgMTUzLjU3NCA5OS43NDEgMTU0LjAxNlE5OS4wNjUgMTU0LjQ1OCA5OC43MDEgMTU1LjI5TDk4LjcwMSAxNTUuMjlROTguNDY3IDE1NS44MSA5OC4zODkgMTU2LjQzNFoiIGZpbGw9IiM2ZDU1YzciLz48L3N2Zz4="
+    }
+  ]
+}

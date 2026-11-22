@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tessaly-precision",
+    "name": "Tessaly Books — Precision",
+    "summary": "Opaque PNG wordmark set beside a crisp, square symbol.",
+    "file": "tessaly-precision.qrstudio.json"
+  },
+  {
+    "id": "solenne-soft",
+    "name": "Solenne Studio — Soft",
+    "summary": "Tall vector mark inside a dotted symbol on a rounded card.",
+    "file": "solenne-soft.qrstudio.json"
+  },
+  {
+    "id": "brasa-editorial",
+    "name": "Brasa Verde — Editorial",
+    "summary": "Typographic poster layout with the wide lockup below the symbol.",
+    "file": "brasa-editorial.qrstudio.json"
+  },
+  {
+    "id": "kelvane-technical",
+    "name": "Kelvane Systems — Technical",
+    "summary": "Chamfered modules on a dark plate with measured marks.",
+    "file": "kelvane-technical.qrstudio.json"
+  },
+  {
+    "id": "pomelo-emblem",
+    "name": "Pomelo Pop — Emblem",
+    "summary": "Bright accent kept for the badge; modules use a darkened tone of it.",
+    "file": "pomelo-emblem.qrstudio.json"
+  },
+  {
+    "id": "kelvane-pattern",
+    "name": "Kelvane Systems — Pattern",
+    "summary": "The mark repeats as a tiled surround; logo centred in the symbol.",
+    "file": "kelvane-pattern.qrstudio.json"
+  }
+]
