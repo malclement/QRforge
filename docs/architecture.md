@@ -115,4 +115,3 @@ pass through the upload intake.
   style attributes, which are documented parameter shifts.
 - A stored report is restored only for an identical fingerprint. Export always
   needs the exact bytes, so it re-verifies when they are not in memory.
-- Nothing has been committed to git; that is left to the repository owner.

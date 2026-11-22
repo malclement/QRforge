@@ -37,7 +37,6 @@ Last updated: 2026-11-21. Release 1.0.0 scope is implemented.
 - Browsers other than Chromium have not been run. The code uses standard APIs
   (OffscreenCanvas in workers, `createImageBitmap`), but Firefox and Safari are untested.
 - The CI workflow has not been executed on a runner.
-- Nothing is committed to git yet.
 
 ## Known limits
 
