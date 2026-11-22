@@ -1,0 +1,113 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* Workshop neutrals: ink on paper, with a cutting-mat green-grey behind the artwork. */
+  --color-ink: #18211d;
+  --color-ink-2: #49554f;
+  --color-ink-3: #6f7a74;
+  --color-line: #d5dbd4;
+  --color-line-2: #e7ebe6;
+  --color-panel: #ffffff;
+  --color-wash: #f3f5f2;
+  --color-mat: #e2e7e0;
+  --color-mat-dark: #1e2623;
+
+  /* One functional accent: inspection blue. The artwork is the only other colour on screen. */
+  --color-accent: #2a3fcf;
+  --color-accent-strong: #1f30a8;
+  --color-accent-soft: #e8ebfc;
+
+  --color-ok: #17734a;
+  --color-ok-soft: #e1f2e9;
+  --color-warn: #8a5600;
+  --color-warn-soft: #fbeed2;
+  --color-bad: #b3261e;
+  --color-bad-soft: #fbe5e3;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-wash);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.45;
+  font-feature-settings: 'tnum' 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* A visible, consistent focus ring for every interactive element. */
+:where(a, button, input, select, textarea, summary, [role='slider'], [role='tab'], [tabindex]):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* The cutting mat: a fine dot grid that gives the artboard a sense of scale. */
+.mat {
+  background-color: var(--color-mat);
+  background-image: radial-gradient(circle, rgb(24 33 29 / 0.16) 1px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+.mat[data-surround='dark'] {
+  background-color: var(--color-mat-dark);
+  background-image: radial-gradient(circle, rgb(255 255 255 / 0.13) 1px, transparent 1.2px);
+}
+
+/* Checkerboard under transparent parts of an artwork. */
+.transparency {
+  background-image: conic-gradient(#0000000f 25%, #0000 0 50%, #0000000f 0 75%, #0000 0);
+  background-size: 14px 14px;
+}
+
+input[type='color'] {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type='color']::-webkit-color-swatch {
+  border: 0;
+  border-radius: 5px;
+}
+input[type='color']::-moz-color-swatch {
+  border: 0;
+  border-radius: 5px;
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin 0.9s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
