@@ -1,6 +1,6 @@
 # Progress
 
-Last updated: 2026-11-21. Release 1.0.0 scope is implemented.
+Last updated: 2026-11-23. Release 1.0.0 scope is implemented.
 
 ## Done
 
@@ -30,13 +30,13 @@ Last updated: 2026-11-21. Release 1.0.0 scope is implemented.
   subscription). Two schema-valid suggestions returned in 8.4 s.
 - Visual review in Chromium at 1440×900 and 390×844: editor, logo upload, each
   preset, verify tab, export dialog, projects dialog, error state, dark surround.
+- CI (GitHub Actions, Ubuntu): `npm run check` and `npm run test:e2e` pass.
 
 ## Not verified
 
 - Physical scans (iOS, Android) and printed proofs: pending. See the checklist in `README.md`.
 - Browsers other than Chromium have not been run. The code uses standard APIs
   (OffscreenCanvas in workers, `createImageBitmap`), but Firefox and Safari are untested.
-- The CI workflow has not been executed on a runner.
 
 ## Known limits
 
