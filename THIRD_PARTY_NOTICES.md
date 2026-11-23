@@ -14,6 +14,8 @@ Bundled with the built application:
 | Inter, Fraunces, Space Grotesk, DM Mono, Nunito, IBM Plex Sans | SIL Open Font License 1.1 | Font files from the `@fontsource/*` packages |
 
 Each package's full licence text is in its directory under `node_modules`.
+`npm run build` collects them into `dist/THIRD_PARTY_LICENSES.md`, so a hosted
+build carries its notices.
 Captions in exported artwork are outlines generated from the OFL fonts above,
 which the licence permits.
 
