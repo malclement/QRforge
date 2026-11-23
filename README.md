@@ -1,5 +1,8 @@
 # QR Studio
 
+[![CI](https://github.com/malclement/QRforge/actions/workflows/ci.yml/badge.svg)](https://github.com/malclement/QRforge/actions/workflows/ci.yml)
+[![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+
 A local-first design studio for branded QR codes. Enter a URL or text, add a
 logo, pick one of six generated designs, refine it, and export SVG or PNG. Every
 export is decoded by two independent decoders before it is offered, and the
@@ -160,3 +163,13 @@ Licences of bundled code and fonts are in
 Wi-Fi and vCard helpers, PDF export, batch generation from CSV, a dedicated
 image-generation provider for illustrated codes, dynamic redirects and
 analytics, accounts and collaboration.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Report vulnerabilities privately, as
+described in [SECURITY.md](SECURITY.md).
+
+## Licence
+
+[MIT](LICENSE). Bundled third-party code and fonts keep their own licences,
+listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
