@@ -1,7 +1,15 @@
 name: CI
 on:
   push:
+    branches: [main]
   pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 # No job here calls an AI service. The live smoke test (npm run smoke:claude) is manual only.
 jobs:
